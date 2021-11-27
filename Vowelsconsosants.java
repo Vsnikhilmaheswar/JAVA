@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /* ###################################################*/
 /*                                                    */
 /*  AUTHOR:  VS NIKHIL MAMHESWAR                      */       
@@ -9,6 +7,7 @@ import java.util.Scanner;
 /*  DATE   : 27-11-2021                               */
 /*                                                    */
 /*####################################################*/
+import java.util.Scanner;
 public class Vowelsconsosants {
 	public static void main(String agrs[]) 
 	{
