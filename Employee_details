@@ -1,0 +1,40 @@
+package java1;
+import java.util.Scanner;
+ class emp
+{
+	int empcode,salary;
+	String Name,DOP,Designation;
+	void Getdata() //   Getdata() method for getting information from the user
+	{
+		  Scanner sc=new Scanner(System.in);
+		System.out.println("enter the employee code ");
+		empcode=sc.nextInt();
+		System.out.println("enter the employee name ");
+		Name=sc.next();
+		System.out.println("enter the employee DOB ");
+		DOP=sc.next();
+		System.out.println("enter the employee salary");
+		salary=sc.nextInt();
+		System.out.println("enter the designation");
+		Designation = sc.next();
+		
+	}
+	 void display() // display() method for displaying information of the employee
+	{
+		 System.out.println("Employee CODE = "+empcode);
+		System.out.println(" employee name = "+Name);
+		System.out.println(" employee DOB = "+DOP);
+		System.out.println(" employee salary ="+salary);
+		System.out.println(" employee designation = "+Designation);
+	}
+}
+public class Employee {
+ 
+	public static void main(String[] args) 
+	{
+    emp eme=new emp(); // creating an object of emp classs
+	eme.Getdata();
+	eme.display();
+	}
+
+}
